@@ -1,0 +1,6 @@
+#! /bin/bash
+
+cd chapters
+rm *.aux
+rm *.out
+rm *.log

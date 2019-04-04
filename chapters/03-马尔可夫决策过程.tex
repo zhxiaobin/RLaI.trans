@@ -1,14 +1,15 @@
 \documentclass{ctexart}
 
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{graphicx}
 
 \begin{document}
 
 本章介绍经典的序列决策形式化模型——有限MDP，它既像bandit一样涉及评估性回馈，也包含结合性回馈——在不同的形势中选择不同行动。因为能做出精确的理论描述，因此MDP是强化学习问题的理想数学形式。
 
-\section{代理环境借口}
+\section{代理环境接口}
 
-MDP试图直接构造从互动中学习以实现某一目标的问题。学习者或决策者称为**代理(agent)**，与它互动的代理外一切事物为**环境(enviroment)**。它们在离散的时间步$t=0,1,2,\dots$上互动，在每一步$t$，代理处在环境的某个**状态(state)**$S_t \in \mathcal S$中，基于此选择一个**行动(action)**$A_t \in \mathcal A(s)$，一步之后，代理获得一个数值**激励(reward)**$R_{t+1} \in \mathcal R \in \mathbb R$，并进入新的状态$S_{t+1}$。如下图：
+MDP试图直接构造从互动中学习以实现某一目标的问题。学习者或决策者称为代理(agent)，与它互动的代理外一切事物为环境(enviroment)。它们在离散的时间步$t=0,1,2,\dots$上互动，在每一步$t$，代理处在环境的某个状态(state)$S_t \in \mathcal S$中，基于此选择一个行动(action)$A_t \in \mathcal A(s)$，一步之后，代理获得一个数值激励(reward)$R_{t+1} \in \mathcal R \in \mathbb R$，并进入新的状态$S_{t+1}$。如下图：
 
 \end{document}
