@@ -1,6 +1,11 @@
 #! /bin/bash
 
+rm *.aux
+rm *.out
+rm *.log
+
 cd chapters
 rm *.aux
 rm *.out
 rm *.log
+rm *.pdf
